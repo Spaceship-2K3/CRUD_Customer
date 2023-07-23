@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+body {
+    min-height: 100vh;
+    font-weight: 300;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+}
+
+/* ! Container */
+.container {
+    display: flex;
+}
+
+/* ! Left content */
+.left-section {
+    width: 20%;
+    padding: 26px 30px;
+    border-right: 1px solid #ccc;
+    box-shadow: -1px -2px 0px 1px rgba(27, 31, 35, 0.15);
+}
+/* todo : logo */
+.logo {
+}
+
+.logo__link {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(28, 26, 119);
+    margin-bottom: 20px;
+}
+
+/* todo : menu */
+
+.menu__title {
+    font-size: 1.2rem;
+    color: rgb(189, 189, 189);
+}
+
+.menu__links {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.menu__links-item {
+    display: block;
+    margin-bottom: 0.9rem;
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu__links-item.curentPosition {
+    color: rgb(44, 41, 205);
+}
+.menu__links-item i {
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+}
+
+/* ! Right content */
